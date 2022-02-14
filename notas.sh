@@ -35,4 +35,18 @@ $git diff b37f461
 # Muestra los cambios realizados entre el commit1 y commit2 especificado por su HASH
 $git diff 5f6c11d b37f461
 
-# 
+# Partiendo de un Commit identificado por su HASH, elimina los Commits futuros a èl y mantiene todos esos cambios en el Staging Area.
+$git reset --soft b37f461
+
+# Partiendo de un Commit identificado por su HASH, elimina todos los Commits futuros a èl y mantiene todos esos cambios en el Working Directory.
+$git reset --mixed b37f461
+
+# Quita del Staging Area el archivo y lo deja Working Directory.
+$git reset HEAD <nombre_archivo>
+
+# Partiendo de un Commit identificado por su HASH, elimina todos los Commits futuros a el y no mantiene los cambios ni en el Staging Area
+# ni en el Working Directory de los Commits eliminados
+$git reset --hard 5f6c11d
+
+# Si uno està parado en el Staging Area elimina los ùltimos cambios y archivos agregados.
+$git reset --hard
