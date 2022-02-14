@@ -23,5 +23,8 @@ git config --global user.name "Juan Lauri"
 # Cambia de manera global el email del usuario, seguidamente ponemos entre comillas nuestro nombre.
 git config --global user.email "jclauri.ponte@gmail.com"
 
+# Muestra todos los cambios històricos realizados
+git show
+
 # Se usa para ver la historia de nuestros archivos, los commits, el usuario que lo cambió, cuando se realizaron los cambios etc. seguidamente ponemos el nombre de nuestro archivo.
 git log
