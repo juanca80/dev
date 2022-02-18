@@ -3,3 +3,5 @@ Soy Juan Lauri
 Estoy en el curso profesional de git
 
 Soy ingeniero informatico.
+
+Hoy hablaremos de su vida
