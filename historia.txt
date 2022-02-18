@@ -1,7 +1,5 @@
-Soy Juan Lauri
+Esta es la historia de Juan Lauri
 
-Estoy en el curso profesional de git
+Juan Lauri tiene 41 años y naciò en Perù.
 
-Soy ingeniero informatico.
-
-Hoy hablaremos de su vida y obra maestra
+Mañana nos enfocaremos en su vida laboral.
